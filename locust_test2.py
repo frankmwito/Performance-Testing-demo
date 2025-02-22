@@ -1,6 +1,6 @@
 # simulating user login and session based testing
 
-from locusttest import HttpUser, task, between
+from locust_test2 import HttpUser, task, between
 import json
 
 class AuthenticateUser(HttpUser):

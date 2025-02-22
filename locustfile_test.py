@@ -1,4 +1,4 @@
-from locusttest import HttpUser, task, between
+from locust_test2 import HttpUser, task, between
 
 class MyUser(HttpUser):
     wait_time = between(1, 5)  # Simulates user waiting between requests (1-5 seconds)
