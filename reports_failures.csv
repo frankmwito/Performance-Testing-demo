@@ -1,0 +1,30 @@
+Method,Name,Error,Occurrences
+GET,/shows,HTTPError('503 Server Error: Service Unavailable for url: /shows'),32289
+GET,/,HTTPError('524 Server Error: <none> for url: /'),102
+GET,/,HTTPError('524 Server Error:  for url: /'),1051
+GET,/about,HTTPError('524 Server Error: <none> for url: /about'),100
+GET,/contact,RemoteDisconnected('Remote end closed connection without response'),8
+GET,/shows,HTTPError('524 Server Error:  for url: /shows'),969
+GET,/,RemoteDisconnected('Remote end closed connection without response'),6
+GET,/blog,HTTPError('524 Server Error: <none> for url: /blog'),92
+GET,/about,"ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)",1
+GET,/about,HTTPError('524 Server Error:  for url: /about'),1046
+GET,/blog,"SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)'))",1
+GET,/,HTTPError('503 Server Error: Service Unavailable for url: /'),32133
+GET,/blog,HTTPError('524 Server Error:  for url: /blog'),990
+GET,/shows,HTTPError('524 Server Error: <none> for url: /shows'),90
+GET,/about,RemoteDisconnected('Remote end closed connection without response'),11
+GET,/shows,"SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)'))",1
+GET,/blog,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",1
+GET,/shows,RemoteDisconnected('Remote end closed connection without response'),9
+GET,/contact,HTTPError('524 Server Error:  for url: /contact'),938
+GET,/contact,"SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)'))",1
+GET,/,"SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)'))",1
+GET,/about,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",3
+GET,/,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",1
+GET,/blog,HTTPError('503 Server Error: Service Unavailable for url: /blog'),31787
+GET,/contact,HTTPError('503 Server Error: Service Unavailable for url: /contact'),32090
+GET,/about,HTTPError('503 Server Error: Service Unavailable for url: /about'),32354
+GET,/blog,RemoteDisconnected('Remote end closed connection without response'),7
+GET,/shows,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",2
+GET,/contact,HTTPError('524 Server Error: <none> for url: /contact'),79
